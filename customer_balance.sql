@@ -1,1 +1,1 @@
-select * from oe_order_lines
+select * from ont.oe_order_lines_all oola, ont.or_order_headers_all ooha;
